@@ -1,0 +1,142 @@
+Variable Name,Definition,Level,Variable Type
+v2a1, Monthly rent payment,Household Level,float
+hacdor, =1 Overcrowding by bedrooms,Household Level,bool
+rooms,  number of all rooms in the house,Household Level,int
+hacapo, =1 Overcrowding by rooms,Household Level,bool
+v14a, =1 has bathroom in the household,Household Level,bool
+refrig, =1 if the household has refrigerator,Household Level,bool
+v18q, owns a tablet,Member Level,bool
+v18q1, number of tablets household owns,Household Level,int
+r4h1, Males younger than 12 years of age,Household Level,int
+r4h2, Males 12 years of age and older,Household Level,int
+r4h3, Total males in the household,Household Level,int
+r4m1, Females younger than 12 years of age,Household Level,int
+r4m2, Females 12 years of age and older,Household Level,int
+r4m3, Total females in the household,Household Level,int
+r4t1, persons younger than 12 years of age,Household Level,int
+r4t2, persons 12 years of age and older,Household Level,int
+r4t3, Total persons in the household,Household Level,int
+tamhog, size of the household,Household Level,int
+tamviv, number of persons living in the household,Household Level,int
+escolari, years of schooling,Member Level,int
+rez_esc, Years behind in school,Member Level,int
+hhsize, household size,Member Level,int
+paredblolad, =1 if predominant material on the outside wall is block or brick,Household Level,bool
+paredzocalo," ""=1 if predominant material on the outside wall is socket (wood   zinc or absbesto""",Household Level,bool
+paredpreb, =1 if predominant material on the outside wall is prefabricated or cement,Household Level,bool
+pareddes, =1 if predominant material on the outside wall is waste material,Household Level,bool
+paredmad, =1 if predominant material on the outside wall is wood,Household Level,bool
+paredzinc, =1 if predominant material on the outside wall is zink,Household Level,bool
+paredfibras, =1 if predominant material on the outside wall is natural fibers,Household Level,bool
+paredother, =1 if predominant material on the outside wall is other,Household Level,bool
+pisomoscer," ""=1 if predominant material on the floor is mosaic; ceramic; terrzo",Household Level,bool
+pisocemento, =1 if predominant material on the floor is cement,Household Level,bool
+pisoother, =1 if predominant material on the floor is other,Household Level,bool
+pisonatur, =1 if predominant material on the floor is  natural material,Household Level,bool
+pisonotiene, =1 if no floor at the household,Household Level,bool
+pisomadera, =1 if predominant material on the floor is wood,Household Level,bool
+techozinc, =1 if predominant material on the roof is metal foil or zink,Household Level,bool
+techoentrepiso," ""=1 if predominant material on the roof is fiber cement   mezzanine",Household Level,bool
+techocane, =1 if predominant material on the roof is natural fibers,Household Level,bool
+techootro, =1 if predominant material on the roof is other,Household Level,bool
+cielorazo, =1 if the house has ceiling,Household Level,bool
+abastaguadentro, =1 if water provision inside the dwelling,Household Level,bool
+abastaguafuera, =1 if water provision outside the dwelling,Household Level,bool
+abastaguano, =1 if no water provision,Household Level,bool
+public," ""=1 electricity from CNFL   ICE  ESPH/JASEC",Household Level,bool
+planpri, =1 electricity from private plant,Household Level,bool
+noelec, =1 no electricity in the dwelling,Household Level,bool
+coopele, =1 electricity from cooperative,Household Level,bool
+sanitario1, =1 no toilet in the dwelling,Household Level,bool
+sanitario2, =1 toilet connected to sewer or cesspool,Household Level,bool
+sanitario3, =1 toilet connected to  septic tank,Household Level,bool
+sanitario5, =1 toilet connected to black hole or letrine,Household Level,bool
+sanitario6, =1 toilet connected to other system,Household Level,bool
+energcocinar1, =1 no main source of energy used for cooking (no kitchen),Household Level,bool
+energcocinar2, =1 main source of energy used for cooking electricity,Household Level,bool
+energcocinar3, =1 main source of energy used for cooking gas,Household Level,bool
+energcocinar4, =1 main source of energy used for cooking wood charcoal,Household Level,bool
+elimbasu1, =1 if rubbish disposal mainly by tanker truck,Household Level,bool
+elimbasu2, =1 if rubbish disposal mainly by botan hollow or buried,Household Level,bool
+elimbasu3, =1 if rubbish disposal mainly by burning,Household Level,bool
+elimbasu4, =1 if rubbish disposal mainly by throwing in an unoccupied space,Household Level,bool
+elimbasu5," ""=1 if rubbish disposal mainly by throwing in river",Household Level,bool
+elimbasu6, =1 if rubbish disposal mainly other,Household Level,bool
+epared1, =1 if walls are bad,Household Level,bool
+epared2, =1 if walls are regular,Household Level,bool
+epared3, =1 if walls are good,Household Level,bool
+etecho1, =1 if roof are bad,Household Level,bool
+etecho2, =1 if roof are regular,Household Level,bool
+etecho3, =1 if roof are good,Household Level,bool
+eviv1, =1 if floor are bad,Household Level,bool
+eviv2, =1 if floor are regular,Household Level,bool
+eviv3, =1 if floor are good,Household Level,bool
+dis, =1 if disable person,Member Level,bool
+male, =1 if male,Member Level,bool
+female, =1 if female,Member Level,bool
+estadocivil1, =1 if less than 10 years old,Member Level,bool
+estadocivil2, =1 if free or coupled uunion,Member Level,bool
+estadocivil3, =1 if married,Member Level,bool
+estadocivil4, =1 if divorced,Member Level,bool
+estadocivil5, =1 if separated,Member Level,bool
+estadocivil6, =1 if widow/er,Member Level,bool
+estadocivil7, =1 if single,Member Level,bool
+parentesco1, =1 if household head,Member Level,bool
+parentesco2, =1 if spouse/partner,Member Level,bool
+parentesco3, =1 if son/doughter,Member Level,bool
+parentesco4, =1 if stepson/doughter,Member Level,bool
+parentesco5, =1 if son/doughter in law,Member Level,bool
+parentesco6, =1 if grandson/doughter,Member Level,bool
+parentesco7, =1 if mother/father,Member Level,bool
+parentesco8, =1 if father/mother in law,Member Level,bool
+parentesco9, =1 if brother/sister,Member Level,bool
+parentesco10, =1 if brother/sister in law,Member Level,bool
+parentesco11, =1 if other family member,Member Level,bool
+parentesco12, =1 if other non family member,Member Level,bool
+idhogar, Household level identifier,Household Level,string
+hogar_nin, Number of children 0 to 19 in household,Household Level,int
+hogar_adul, Number of adults in household,Household Level,int
+hogar_mayor, # of individuals 65+ in the household,Household Level,int
+hogar_total, # of total individuals in the household,Household Level,int
+dependency, Dependency rate;  calculated = (number of members of the household younger than 19 or older than 64)/(number of member of household between 19 and 64),Household Level,numeric
+edjefe, years of education of male head of household;  based on the interaction of escolari (years of education)  head of household and gender;  yes=1 and no=0,Household Level,bool
+edjefa, years of education of female head of household ; based on the interaction of escolari (years of education) ; head of household and gender;  yes=1 and no=0,Household Level,bool
+meaneduc,average years of education for adults (18+),Household Level,int
+instlevel1, =1 no level of education,Member Level,bool
+instlevel2, =1 incomplete primary,Member Level,bool
+instlevel3, =1 complete primary,Member Level,bool
+instlevel4, =1 incomplete academic secondary level,Member Level,bool
+instlevel5, =1 complete academic secondary level,Member Level,bool
+instlevel6, =1 incomplete technical secondary level,Member Level,bool
+instlevel7, =1 complete technical secondary level,Member Level,bool
+instlevel8, =1 undergraduate and higher education,Member Level,bool
+instlevel9, =1 postgraduate higher education,Member Level,bool
+bedrooms, number of bedrooms,Household Level,int
+overcrowding, # persons per room,Household Level,int
+tipovivi1, =1 own and fully paid house,Household Level,bool
+tipovivi2," ""=1 own paying in installments",Household Level,bool
+tipovivi3, =1 rented,Household Level,bool
+tipovivi4, =1 precarious,Household Level,bool
+tipovivi5," ""=1 other(assigned   borrowed)""",Household Level,bool
+computer, =1 if the household has notebook or desktop computer,Household Level,bool
+television, =1 if the household has TV,Household Level,bool
+mobilephone, =1 if mobile phone,Member Level,bool
+qmobilephone, # of mobile phones,Household Level,int
+lugar1, =1 region Central,Household Level,bool
+lugar2, =1 region Chorotega,Household Level,bool
+lugar3, =1 region PacÃ­fico central,Household Level,bool
+lugar4, =1 region Brunca,Household Level,bool
+lugar5, =1 region Huetar AtlÃ¡ntica,Household Level,bool
+lugar6, =1 region Huetar Norte,Household Level,bool
+area1, =1 zona urbana,Household Level,bool
+area2, =2 zona rural,Household Level,bool
+age, Age in years,Household Level,int
+SQBescolari, escolari squared,Household Level,numeric
+SQBage, age squared,Household Level,numeric
+SQBhogar_total, hogar_total squared,Household Level,int
+SQBedjefe, edjefe squared,Household Level,int
+SQBhogar_nin, hogar_nin squared,Household Level,int
+SQBovercrowding, overcrowding squared,Household Level,float
+SQBdependency, dependency squared,Household Level,float
+SQBmeaned, square of the mean years of education of adults (>=18) in the household,Household Level,bool
+agesq, Age squared,Household Level,numeric
