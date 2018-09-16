@@ -138,5 +138,5 @@ SQBedjefe, edjefe squared,Household Level,int
 SQBhogar_nin, hogar_nin squared,Household Level,int
 SQBovercrowding, overcrowding squared,Household Level,float
 SQBdependency, dependency squared,Household Level,float
-SQBmeaned, square of the mean years of education of adults (>=18) in the household,Household Level,bool
+SQBmeaned, square of the mean years of education of adults (>=18) in the household,Household Level,float
 agesq, Age squared,Household Level,numeric
